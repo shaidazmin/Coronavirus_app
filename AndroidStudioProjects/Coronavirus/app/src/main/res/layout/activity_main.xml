@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="#F4F1F1"
+        android:background="#2196F3">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_gravity="center"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <TableLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/no_internet"
+            android:src="@drawable/no_internet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/id_one"
+                android:visibility="invisible"
+                android:text="Effected Country's"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/border_with_guardian"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/effected_country"
+                android:visibility="invisible"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:background="@drawable/guardian_txt"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"/>
+        </TableRow>
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/id_three"
+            android:text="Corona Cases"
+            android:visibility="invisible"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_bg"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/id_two"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_bg"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Total Recovered"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/total_cases"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_txt"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/total_recovered"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/guardian_txt"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+
+    </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/id_four"
+                android:layout_marginTop="2dp"
+                android:text="Corona Deaths"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:layout_weight="1"
+                android:background="@drawable/guardian_bg"
+                android:textColor="#000000"
+                android:padding="8dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/total_deaths"
+                android:visibility="invisible"
+                android:layout_weight="1"
+                android:background="@drawable/guardian_txt"
+                android:textColor="#FF0000"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <LinearLayout
+            android:id="@+id/loader_layout"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <com.agrawalsuneet.dotsloader.loaders.TashieLoader
+                android:id="@+id/dot_loader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tashieloader_animDelay="200"
+                app:tashieloader_animDur="1000"
+                app:tashieloader_dotsColor="@color/colorPrimary"
+                app:tashieloader_dotsDist="5dp"
+                app:tashieloader_dotsRadius="10dp"
+                app:tashieloader_interpolator="@android:anim/accelerate_interpolator"
+                app:tashieloader_noOfDots="5"
+               />
+        </LinearLayout>
+
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

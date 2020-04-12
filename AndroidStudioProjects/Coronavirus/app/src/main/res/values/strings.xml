@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Coronavirus</string>
+    <string name="qna">Q &amp; A</string>
+
+    <string name="origin">
+        What is a ‘novel’ coronavirus? A novel coronavirus (CoV) is a new strain of coronavirus.
+        The disease caused by the novel coronavirus first identified in Wuhan, China, has been named coronavirus disease 2019 (COVID-19) – ‘CO’ stands for corona, ‘VI’ for virus, and ‘D’ for disease. Formerly, this disease was referred to as ‘2019 novel coronavirus’ or ‘2019-nCoV.’
+        The COVID-19 virus is a new virus linked to the same family of viruses as Severe Acute Respiratory Syndrome (SARS) and some types of common cold.
+        COVID-19 has been described as a pandemic by the World Health Organization. What does that mean?
+        Characterizing COVID-19 as a pandemic is not an indication that the virus has become deadlier. Rather, it’s an acknowledgement of the disease’s geographical spread.
+        UNICEF has been preparing and responding to the epidemic of COVID-19 around the world, knowing that the virus could spread to children and families in any country or community. UNICEF will continue working with governments and our partners to stop transmission of the virus, and to keep children and their families safe.
+    </string>
+
+    <string name="symptoms">
+        The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually.
+        Some people become infected but don’t develop any symptoms and don\'t feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing.
+        Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.
+    </string>
+
+
+    <string name="prevention">
+        There\’s currently no vaccine to prevent coronavirus disease (COVID-19).
+        You can protect yourself and help prevent spreading the virus to others if you:
+        Do Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub
+        Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze
+        Avoid close contact (1 meter or 3 feet) with people who are unwell
+        Stay home and self-isolate from others in the household if you feel unwell
+        Don\'t Touch your eyes, nose, or mouth if your hands are not clean
+    </string>
+
+    <string name="treatments">
+        There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to help them breathe.
+        Self care If you have mild symptoms, stay at home until you’ve recovered. You can relieve your symptoms if you:
+        rest and sleep keep warm drink plenty of liquids
+        use a room humidifier or take a hot shower to help ease a sore throat and cough
+        Medical treatments
+        If you develop a fever, cough, and have difficulty breathing, promptly seek medical care. Call in advance and tell your health provider of any recent travel or recent contact with travelers.
+
+    </string>
+
+
+
+    <string name="about">
+
+    </string>
+
+</resources>

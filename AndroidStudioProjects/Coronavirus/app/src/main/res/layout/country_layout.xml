@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+
+    android:background="#ffffff">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/country_id"
+            android:text="Bangladesh"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_span="3"
+            android:padding="10dp"
+            android:background="@drawable/border_with_guardian"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Total Test"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_bg"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Total Case"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_bg"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Total Death"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_bg"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+    </TableRow>
+
+
+
+
+    <TableRow
+        android:background="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/total_test_id"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_txt"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/total_cases_id"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/guardian_txt"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/total_death_id"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_txt"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="2dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Total Recovered"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_bg"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Active Case"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_bg"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="New Case"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/guardian_bg"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/total_recovered_id"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_txt"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/active_case_id"
+
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_txt"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/new_case_id"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/guardian_txt"
+            android:textColor="#FF0000"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="2dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Serious Case"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_bg"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="New Death"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_bg"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:background="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/serious_case_id"
+            android:layout_weight="1"
+            android:background="@drawable/guardian_txt"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/new_death_id"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/guardian_txt"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:background="#ffff"
+        android:layout_height="10dp"
+        android:layout_weight="1"/>
+
+
+</TableLayout>
